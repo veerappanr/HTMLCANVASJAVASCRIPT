@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <style>
+        body{ background-color:white; }
+        #canvasHtml5{border: 1px solid red;}
+        #canvasJavascript{border: 5px solid blue;}
+     </style>
+     <script>
+        window.onload=(function(){
+            //Add canvas element using javascript
+            var canvas=document.createElement('canvas');
+            canvas.id='canvasJavascript'
+            document.body.appendChild(canvas);
+        }); // end $(function(){});
+
+     </script>
+     </head>
+     <body>
+        <!-- Add a canvas element using html -->
+        <canvas id="canvasHtml5"></canvas>
+       <!-- <canvas id="canvasJavascript"></canvas> -->
+     </body>
+</html>
